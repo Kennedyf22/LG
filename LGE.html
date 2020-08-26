@@ -3,37 +3,32 @@
     <head>
         <title>Libras Guara- Exercicios</title>
         <Style>
-            h1{
-                font-size: 60px;
-                background-color:black;
-                color: White;
-                Font-family:Brush Script MT, Brush Script Std, cursive;
-                font-weight: bold;
+            .title{
+                font-size:60px;
+                font-weight:bold;
                 text-align:center;
-                border: 3px solid black;
-                padding:2%;
-                margin:-1.5%;
-                width:100%;
-            }
-            h1:hover{
-                background-color:lightgray;
                 color: Black;
-                font-weight:bold;  
-                border: 3px solid lightgray;             
-            }
-            body{
+                Font-family:Brush Script MT, Brush Script Std, cursive;
                 background-color:lightgray;
+                width:105.1%;
+                padding:-1%;
+                margin:-4.5%;                
             }
-            h2{
+            .title:hover{
+                background-color:black;
+                color:white;
+            }
+            .subtitle{
                 background-color:gray;
                 font-size:20px;
                 text-align:center;
-                font:bold;
-                width:100%;
-                padding-left:1%;
-                padding-right:2.5%;
-                margin:-1%;
-                border:3px solid gray;
+                font-weight:bold;
+                width:105.1%;
+                padding:-1%;
+                margin:-4.5%;
+            }
+            body{
+                background-color:black;
             }
             iframe{
                 height:100%;
@@ -55,38 +50,69 @@
                 text-align:center;
                 margin:-5px;
             }
-            a{
-                text-decoration: none;
-                color:white;
-            }
             a:visited{
                 color:white;
             }
-            div{
-                text-align:center;
-                padding:11.11.11.15%;
-                margin:1%;
-                width:100%;
-     
+            a:hover{
+                color:white;
             }
-            button{
-                font:bold;
-                font-size:13px;
-                width:100px;
-                height:35px;
-                margin:1%;
-                padding:0.5%;                
-                background-color:gray;
+            .menu{
+                width:100%;
+                height:125px;
+                margin:-1.5%;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            }
+            ol{
+                list-style:none;
+                display:flex;
+                font-size:1.2rem;
+            }
+            ol li{
+                margin:0 20px;
+                padding:10px 10px;
+                position:relative;
+                transition:all 0.2s;
+                transition-delay:0.2s;
+            }
+            ol li a{
+                text-decoration: none;
+                color:white;
+            }
+            ol li::before{
+                content:"";
+                position:absolute;
+                bottom:0;
+                left:0;
+                width:100%;
+                height:2px;
+                background:white;
+                transition:all 0.2s;
+            }
+            ol li:hover::before{
+                bottom:40px;
+                background: blue;
+            }
+            ol li:hover{
+                background:blue;
             }
         </Style>
     </head>
     <body>
-        <h1>Libras Guara</h1>
-        <h2>Exercícios</h2>
-        <div>
-            <button><a href="LG.html">Home</a></button>
-            <button><a href="LGVA.html">Vídeo Aulas</a></button>
-            </div>
+        <div class="title">
+            <p>Libras Guara</p>
+        </div>
+        <div class="subtitle">
+            <p>Exercícios</p>
+        </div>
+        <div class="menu">
+            <ol>
+                <li><a href="LG.html">Home</a></li>
+                <li><a href="LGVA.html">Vídeo Aulas</a></li>
+                <li><a href="LGE.html">Exercícios</a></li>
+            </ol>
+        </div>
         <figure>
             <iframe src="https://onedrive.live.com/embed?cid=27DF67B13EF21CA2&resid=27DF67B13EF21CA2%2112382&authkey=AEbZszfjKo925cM" frameborder="0" scrolling="no" allowfullscreen></iframe>
             <figcaption>Libras Guara- Exercicio 4</figcaption>
