@@ -1,0 +1,16 @@
+.title{
+    font-size:450%;
+    font-weight:bold;
+    text-align:center;
+    color:white;
+    Font-family:Brush Script MT, Brush Script Std, cursive;
+    background-color:black;
+    align-items:center;
+    display:flex;
+    margin:2%;
+    padding:1px 1px 1px 430px;
+}
+img{
+    width:12%;
+}
+
