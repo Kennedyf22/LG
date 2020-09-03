@@ -7,10 +7,11 @@
     background-color:black;
     align-items:center;
     display:flex;
-    margin:2%;
-    padding:1px 1px 1px 430px;
+    margin:auto;
+    padding:2% 2% 2% 33%;
 }
 img{
-    width:auto;
+    width:12%;
+    height:auto;
 }
 
