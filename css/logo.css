@@ -13,5 +13,6 @@
 img{
     width:12%;
     padding:auto;
+    display:flex;
 }
 
