@@ -13,6 +13,3 @@
 img{
     width: 100px;
 }
-@media only screen and (max-width: 10px) {
-    .title{ display: inline !important; }
-}
