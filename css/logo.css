@@ -1,5 +1,5 @@
 .title{
-    font-size:350%;
+    font-size:60px;
     font-weight:bold;
     text-align:center;
     color:white;
@@ -11,8 +11,6 @@
     padding:1% 1% 1% 36%;
 }
 img{
-    max-width: 16%;
-    min-width: 15%;
-    align-items:center;
-    
+    width: 100px;
+}
 
