@@ -1,0 +1,22 @@
+iframe{
+    height:100%;
+    width:75%;             
+    border:20px solid darkgray;
+    }
+figure{
+    float:center;
+    display:inline-table;
+    text-align:center;
+    width:auto;
+    margin:2%;
+    padding:auto;
+    align-items:center;
+    }
+figcaption{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:auto;
+    font-style:italic;
+    text-align:center;
+    margin:-2px;
+    color:white;
+}
