@@ -1,15 +1,33 @@
-.title{
-    font-size:60px;
-    font-weight:bold;
-    text-align:center;
-    color:white;
-    Font-family:Brush Script MT, Brush Script Std, cursive;
-    background-color:black;
-    align-items:center;
-    display:flex;
-    margin:auto;
-    padding:1% 1% 1% 36%;
+@media(min-width:600px){
+    .title{
+        font-size:50px;
+        font-weight:bold;
+        text-align:center;
+        color:white;
+        Font-family:Brush Script MT, Brush Script Std, cursive;
+        display:flex;
+        align-items:center;
+        margin:5px;
+        padding:2% 36%;
+    }
+    img{
+        width: 90px;
+    }
 }
-img{
-    width: 100px;
+@media(max-width:599px){
+    .title{
+        font-size:23px;
+        font-weight:bold;
+        text-align:center;
+        color:white;
+        Font-family:Brush Script MT, Brush Script Std, cursive;
+        display:flex;
+        align-items:center;
+        margin:1px;
+        padding:2% 22%;
+
+    }
+    img{
+        width: 45px;
+    }
 }
