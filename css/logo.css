@@ -9,6 +9,7 @@
         align-items:center;
         margin:5px;
         padding:2% 37%;
+        justify-content:center;
     }
     img{
         width: 90px;
@@ -31,6 +32,7 @@
         Font-family:Brush Script MT, Brush Script Std, cursive;
         display:flex;
         align-items:center;
+        justify-content:center;
         margin:1px;
         padding:2% 22%;
 
@@ -38,5 +40,13 @@
     img{
         width: 45px;
         margin:2%;
+    }
+    .subtitle{
+        font-size:10px;
+        font-weight:bold;
+        text-align:center;
+        color:white;
+        Font-family:arial, sans-serif;
+        position:relative;
     }
 }
