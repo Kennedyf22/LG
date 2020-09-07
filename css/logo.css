@@ -8,10 +8,18 @@
         display:flex;
         align-items:center;
         margin:5px;
-        padding:2% 36%;
+        padding:2% 37%;
     }
     img{
         width: 90px;
+    }
+    .subtitle{
+        font-size:16px;
+        font-weight:bold;
+        text-align:center;
+        color:white;
+        Font-family:arial, sans-serif;
+        position:relative;
     }
 }
 @media(max-width:599px){
@@ -24,7 +32,7 @@
         display:flex;
         align-items:center;
         margin:1px;
-        padding:2% 20%;
+        padding:2% 22%;
 
     }
     img{
