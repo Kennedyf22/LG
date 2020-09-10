@@ -23,11 +23,14 @@
         margin:5px;
         padding:5px;
         text-align:center;
-        width:300px;        
+        width:200px;        
         display:center;
     }
     .mod button:hover{
         border:2px solid white;
         background-color:blue;
+    }
+    .mod{
+       margin:1px;
     }
 }
