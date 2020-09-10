@@ -1,4 +1,4 @@
-@media(min-width:600px){
+@media(min-width:1201px){
     .title{
         font-size:50px;
         font-weight:bold;
@@ -23,7 +23,7 @@
         position:relative;
     }
 }
-@media(max-width:599px){
+@media(max-width:1200px){
     .title{
         font-size:25px;
         font-weight:bold;
