@@ -4,7 +4,7 @@
         color:white;
         font-weight:bold;
         font-size:20px;
-        margin:10px;
+        margin:20px;
         padding:7px;
         text-align:center;
         text-decoration:none;
@@ -21,23 +21,24 @@
     }
 }
 @media(max-width:1200px){
-    .mod button{
+    .mod a{
         background-color:black;
         color:white;
         font-weight:bold;
         font-size:10px;
-        margin:5px;
-        padding:5px;
+        margin:10px;
+        padding:7px;
         text-align:center;
-        width:250px;        
-        display:center;
+        text-decoration:none;
     }
-    .mod button:hover{
-        border:2px solid white;
+    .mod a:hover{
+        border:1px solid white;
         background-color:blue;
     }
-    .mod{
-       margin:1px;
-       align-items:center;
+    .mod li{
+        margin:5px;
+        padding:5px;
+        align-items:center;
+        border: solid black;
     }
 }
