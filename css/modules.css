@@ -9,10 +9,6 @@
         text-align:center;
         width:300px;
     }
-    .mod button:hover{
-        border:2px solid white;
-        background-color:blue;
-    }
 }
 @media(max-width:1200px){
     .mod button{

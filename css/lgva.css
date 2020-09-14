@@ -1,5 +1,5 @@
 @media(min-width:1201px){
-    .mod button{
+    .mod a{
         background-color:black;
         color:white;
         font-weight:bold;
@@ -7,11 +7,17 @@
         margin:10px;
         padding:7px;
         text-align:center;
-        width:300px;
+        text-decoration:none;
     }
-    .mod button:hover{
-        border:2px solid white;
+    .mod a:hover{
+        border:1px solid white;
         background-color:blue;
+    }
+    .mod li{
+        margin:5px;
+        padding:5px;
+        align-items:center;
+        border: solid black;
     }
 }
 @media(max-width:1200px){
