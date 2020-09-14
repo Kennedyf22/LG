@@ -18,12 +18,19 @@
 }
 @media(max-width:1200px){
     iframe{
-        height:100%;
-        width:75%;             
+        height:120%;
+        width:85%;
         border:black;
         }
     .class{
-        width:350px;
-        height:175px;
-        margin:3% 5px 2% 10px;
+        width:600px;
+        height:300px;
+        margin:2% 0% 2% 14%;
+    }
+    p{
+        width:85%;
+        color:white;
+        font-size:18px;
+        text-align:center;
+    }
 }
