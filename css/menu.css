@@ -8,7 +8,7 @@
     .menu{
     width:101.5%;
     height:90px;
-    margin:-2%;
+    margin:-2.5%;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -64,7 +64,7 @@
     ol{
     list-style:none;
     display:flex;
-    font-size:15px;
+    font-size:12px;
 }
 ol li{
     margin:0 20px;
