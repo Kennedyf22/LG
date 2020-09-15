@@ -1,37 +1,41 @@
 @media(min-width:1201px){
     iframe{
-        height:120%;
-        width:85%;
+        height:100%;
+        width:100%;
         border:black;
         }
     .class{
-        width:500px;
-        height:250px;
-        position:absolute;
-        align-items:center;
-        padding:0px;
-        margin:2.5% 33.5%;
+        position:fixed;
+        top:285px;
+        right:0;
+        left:0;
+        width:100%;
+        height:50%;
     }
     p{
-        width:85%;
+        width:100%;
         color:white;
         font-size:18px;
         text-align:center;
+        top:auto;
     }
 }
 @media(max-width:1200px){
     iframe{
-        height:120%;
-        width:85%;
+        height:100%;
+        width:100%;
         border:black;
         }
     .class{
-        width:300px;
-        height:150px;
-        margin:0;
+        position:fixed;
+        top:auto;
+        right:0;
+        left:0;
+        width:100%;
+        height:30%;
     }
     p{
-        width:85%;
+        width:100%;
         color:white;
         font-size:18px;
         text-align:center;
