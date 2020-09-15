@@ -6,7 +6,7 @@
         }
     .class{
         position:fixed;
-        top:285px;
+        top:225px;
         right:0;
         left:0;
         width:100%;
@@ -16,7 +16,7 @@
         width:100%;
         color:white;
         font-size:18px;
-        text-align:center;  
+        text-align:center;
     }
 }
 @media(max-width:1200px){
@@ -27,7 +27,7 @@
         }
     .class{
         position:fixed;
-        top:240px;
+        top:230px;
         right:0;
         left:0;
         width:100%;
