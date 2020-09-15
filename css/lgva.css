@@ -36,7 +36,7 @@
         background-color:blue;
     }
     .mod li{
-        margin:2px;
+        margin:2px 1px;
         padding:5px;
         align-items:center;
         border: solid black;
