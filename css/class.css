@@ -16,8 +16,7 @@
         width:100%;
         color:white;
         font-size:18px;
-        text-align:center;
-        top:auto;
+        text-align:center;  
     }
 }
 @media(max-width:1200px){
@@ -28,7 +27,7 @@
         }
     .class{
         position:fixed;
-        top:250px;
+        top:240px;
         right:0;
         left:0;
         width:100%;
