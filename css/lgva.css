@@ -15,9 +15,8 @@
     }
     .mod li{
         margin:5px;
-        padding:5px;
+        padding:7px;
         align-items:center;
-        border: solid black;
     }
 }
 @media(max-width:1200px){
