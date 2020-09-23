@@ -9,6 +9,14 @@
         padding:10px;
         margin:20px;
     }
+    .description{
+        font-family:arial, sans-serif;
+        font-size:15px;
+        font-weight:bold;
+        color:white;
+        text-align:center;
+        padding:10px;
+    }
 }
 @media(max-width:1200px){
     .warning{
@@ -20,5 +28,14 @@
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding:10px;
         margin:20px;
+    }
+    .description{
+        font-family:arial, sans-serif;
+        font-size:13px;
+        font-weight:bold;
+        color:white;
+        text-align:center;
+        padding:15px;
+        
     }
 }
