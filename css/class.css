@@ -5,7 +5,7 @@
         border:black;
         }
     .class{
-        position:fixed;
+        position:absolute;
         top:225px;
         right:0;
         left:0;
@@ -20,7 +20,7 @@
         border:black;
         }
     .class{
-        position:fixed;
+        position:absolute;
         top:230px;
         right:0;
         left:0;
