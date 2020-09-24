@@ -20,7 +20,7 @@
         border:black;
         }
     .class{
-        position:static;
+        position:sticky;
         top:230px;
         right:0;
         left:0;
