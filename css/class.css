@@ -20,7 +20,7 @@
         border:black;
         }
     .class{
-        position:sticky;
+        position:absolute;
         top:230px;
         right:0;
         left:0;
