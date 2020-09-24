@@ -21,6 +21,17 @@
         left:0;
         right:0;
     }
+    .detail{
+        color:white;
+        font-size:15px;
+        font-weight:bold;
+        position:absolute;
+        text-align:center;
+        border:1px solid white;
+        top:100%;
+        left:0;
+        right:0;
+    }
 }
 @media(max-width:1200px){
     .warning{
@@ -42,6 +53,17 @@
         padding:10px;
         position:absolute;
         top:430px;
+        left:0;
+        right:0;
+    }
+    .detail{
+        color:white;
+        font-size:15px;
+        font-weight:bold;
+        position:absolute;
+        text-align:center;
+        border:1px solid white;
+        top:500px;
         left:0;
         right:0;
     }
