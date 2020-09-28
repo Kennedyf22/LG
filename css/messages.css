@@ -67,7 +67,7 @@
     }
     .detail{
         color:white;
-        font-size:15px;
+        font-size:13px;
         font-weight:bold;
         position:absolute;
         text-align:center;
@@ -79,7 +79,7 @@
     .important{
         color:white;
         font-weight:bold;
-        font-size:15px;
+        font-size:13px;
         text-align:center;
         background-color:blue;
         padding:5px;
