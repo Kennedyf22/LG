@@ -32,6 +32,15 @@
         left:0;
         right:0;
     }
+    .important{
+        color:white;
+        font-weight:bold;
+        font-size:16px;
+        text-align:center;
+        background-color:blue;
+        padding:5px;
+        margin:20px;
+    }
 }
 @media(max-width:1200px){
     .warning{
@@ -66,5 +75,13 @@
         top:524px;
         left:0;
         right:0;
+    }
+    .important{
+        color:white;
+        font-weight:bold;
+        font-size:12px;
+        text-align:center;
+        padding:10px;
+        width:100%;
     }
 }
