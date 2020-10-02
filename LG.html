@@ -32,15 +32,50 @@
             Ainda estamos em desenvolvimento!!
         </div>
         <div class="important">
-            <p>Regras:</p>
-            <p>- Nunca compartilhe o conteúdo e nem o link deste curso. Todo este material é exclusivo. Caso alguém se interesse, 
-            por gentileza, encaminhe-o a mim.</p>
-            <p>- Deverá ser dedicado uma(1) semana de treinamento para cada aula assistida para que, assim, haja absorção do conteúdo. Não maratone!</p>
-            <p>- O prazo de entrega das ativides será de uma(1) semana a contar do dia em que a aula correspondente for assistida.</p>
-            <p>- O valor será fixo, isto é, R$50,00/mês por pessoa. Os métodos de pagamento serão acordados no ato da inscrição.</p>
-            <p>- Poderão participar deste curso, pessoas com idade igual ou superior a 12 anos.</p>
-            <p>- Mantenha-se sempre atualizado junto ao lecionador.</p>
-            <P>- Sempre revise o conteúdo das aulas anteriores.</P>
+            <div class="tabs">
+                <div class="tab" data-tab-target ="#tab1">
+                    <p>Regra 1</p>
+                </div>
+                <div class="tab" data-tab-target ="#tab2">
+                    <p>Regra 2</p>
+                </div>
+                <div class="tab" data-tab-target ="#tab3">
+                    <p>Regra 3</p>
+                </div>
+            </div>
+            <div class="content">
+                <div id="tab1" data-tab-content class="items active">
+                    <h2>Regra 1</h2>
+                    <p>- Nunca compartilhe o conteúdo e nem o link deste curso. Todo este material é exclusivo. Caso alguém se interesse, 
+                        por gentileza, encaminhe-o a mim.
+                    </p>
+                </div>
+                <div id="tab2" data-tab-content class="items">
+                    <h2>Regra 2</h2>
+                    <p>
+                        - Deverá ser dedicado uma(1) semana de treinamento para cada aula assistida para que, assim, haja absorção do conteúdo. Não maratone!
+                    </p>
+                </div>
+                <div id="tab3" data-tab-content class="items">
+                    <h2>Regra 3</h2>
+                    <p>
+                        - O prazo de entrega das ativides será de uma(1) semana a contar do dia em que a aula correspondente for assistida.
+                    </p>
+                </div>
+            </div>
+            <script>
+                const tabs = document.querySelectorAll("[data-tab-target]");
+                const tabcon = document.querySelectorAll("[data-tab-content]");
+                tabs.forEach((tab) => {
+                    tab.addEventListener("click", () => {
+                        const target = document.querySelector(tab.dataset.tabTarget);
+                        tabcon.forEach((tabc_all) => {
+                            tabc_all.classList.remove("active");
+                        });
+                            target.classList.add("active");
+                    });
+                });
+            </script>
         </div>
         <div class="contact">
             Contatos: Tel.: (11)95947-6794 - E-mail: kennedy.fpl22@gmail.com
