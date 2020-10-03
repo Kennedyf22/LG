@@ -125,7 +125,7 @@
     .important{
         display: flex;
         flex-direction:column;
-        margin:50px;
+        margin:15%;
     }
     .tabs{
         display:flex    ;
