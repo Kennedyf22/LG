@@ -130,8 +130,11 @@
         transition:all .4s;
         background:linear-gradient(147deg , #ffe538 0%, #ff2525 74%)
     }
-    .box:nth-child(1)::before{
+    .box:nth-child(2)::before{
         background:linear-gradient(19deg, #21d4fd 0%, #8721ff 74%)
+    }
+    .box:nth-child(3)::before{
+        background:linear-gradient(19deg, lightgreen 0%, green 74%)
     }
     .box:hover::before{
         top:0;
@@ -280,8 +283,11 @@
         transition:all .4s;
         background:linear-gradient(147deg , #ffe538 0%, #ff2525 74%)
     }
-    .box:nth-child(1)::before{
+    .box:nth-child(2)::before{
         background:linear-gradient(19deg, #21d4fd 0%, #8721ff 74%)
+    }
+    .box:nth-child(3)::before{
+        background:linear-gradient(19deg, lightgreen 0%, green 74%)
     }
     .box:hover::before{
         top:0;
