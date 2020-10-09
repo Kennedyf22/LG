@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Libras Guara- Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/logo.css">
+        <script src="js/lg.js"></script>
+        <style>
+            body{
+                background-color:black;
+            }
+        </style>
+        <script>
+            function funcao1()
+            {
+                alert("Ol\u00e1! Caso queira fazer parte, entre em contato atrav\u00e9s do WhatsApp: (11)95947-6794 ou E-mail: kennedy.fpl22@gmail.com. N\u00e3o se esqueça de especificar o assunto: Libras Guara.");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="title">
+            <img src="Logo1.jpg" alt="Logo">
+            Libras Guara            
+        </div>
+        <p>Insira o código para acessar ao conteúdo!</p>
+        <div class="login">
+            <form name=login>              
+                <input type=password name=password placeholder="Codigo de acesso" size="20">
+                <button input type=button onClick="Login()">Entrar</button>
+                <input class="invite" type="text" onclick="funcao1()" value="Ainda nao sou cadastrado!">
+            </form>
+        </div>
+        <div class="loading">
+            <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </body>
+</html>

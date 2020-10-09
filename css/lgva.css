@@ -18,6 +18,11 @@
         padding:7px;
         align-items:center;
     }
+    p{
+        color:white;
+        text-align:center;
+        padding:15px;
+    }
 }
 @media(max-width:1200px){
     .mod a{
@@ -39,5 +44,10 @@
         padding:2px;
         align-items:center;
         border: solid black;
+    }
+    p{
+        color:white;
+        text-align:center;
+        padding:12px;
     }
 }
