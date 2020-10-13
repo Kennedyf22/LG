@@ -103,6 +103,7 @@
         height:100vh;
         display:flex;
         flex-wrap:wrap;
+        margin:10px;
     }
     .box{
         width:300px;
@@ -259,7 +260,7 @@
         flex-wrap:wrap;
     }
     .box{
-        width:300px;
+        width:200px;
         height:200px;
         margin:10px;
         flex-direction:column;
