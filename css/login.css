@@ -6,46 +6,6 @@
         font-weight:bold;
         font-size:18px;
     }
-    .invite{
-        color:white;
-        font-size:15px;
-        font-weight:bold;
-        text-decoration:underline;
-        border:none;
-        background:black;
-        display:flex;
-        flex-direction:column;
-        cursor:pointer;
-    }
-    .login{           
-        justify-content:center;        
-        display:flex;
-        text-align:center;
-    }
-    .login input{
-        font-family:arial;
-        font-weight:bold;
-        font-size:15px;
-        display:flex;
-        text-align:center;
-        margin:15px;
-    }
-    .login button{
-        width:90px;
-        height:25px;
-        font-size:14px;
-        font-family:arial;
-        font-weight:bold;
-        background:white;
-        border:black;
-        border-radius:10%;
-    }
-    .login button:hover{
-        background:blue;
-        color:white;
-        font-size:16px;
-        font-family:calibri;
-    }
     .loading{
         width:100%;
         height:50vh;
@@ -89,6 +49,104 @@
     @keyframes anim3{
         0%, 100%{transform:rotate(60deg);}
         50%{transform:rotate(300deg);}
+    }
+    .main{
+        width:100%;
+        height:30vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin: -40px 0 -35px 0;
+    }
+    #checkBox{
+        width:150px;
+        height:40px;
+        -webkit-appearance:none;
+        background:blue;
+        outline:none;
+        cursor:pointer;
+        position:relative;
+    }
+    #checkBox::before{
+        content:'Entrar';
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        font-size:1.1rem;
+        color:white;
+    }
+    #checkBox:checked ~ .mainBox{
+        display:block;
+    }
+    .mainBox{
+        position:absolute;
+        width:350px;
+        height:200px;
+        background:rgb(49, 49, 49);
+        display:none;
+    }
+    .head{
+        display:flex;
+        margin:5px 0;
+    }
+    .cl{
+        width:13px;
+        height:13px;
+        background:#ff414d;
+        border-radius:50px;
+        margin:8px 10px;
+    }
+    .cl:nth-child(2){
+        background:#f0a500;
+        margin:8px 1px;
+    }
+    .cl:nth-child(3){
+        background:#32e0c4;
+    }
+    #btn{
+        background:#4545ac;
+        padding:8px 40px;
+        cursor:pointer;
+        margin:20px 0 10px 40px;
+    }
+    #textBox{
+        width:250px;
+        height:35px;
+        margin:20px 0 10px 40px;
+        color:white;
+        background:rgb(34, 34, 34);
+        border:none;
+        outline:none;
+        padding:0 10px;
+    }
+    .invite{
+        color:white;
+        font-size:15px;
+        font-weight:bold;        
+        border:none;
+        background:black;  
+        cursor:pointer;
+        display:flex;
+        justify-content:center;
+    }
+    .invite:hover{
+        text-decoration:underline;
+    }
+    .invite2{
+        width:250px;
+        height:35px;
+        margin:20px 0 10px 35px;
+        color:white;
+        background:rgb(49, 49, 49);
+        border:none;
+        outline:none;
+        cursor:pointer;
+        padding:0 10px;
+        
+    }
+    .invite2:hover{
+        text-decoration:underline;
     }
 }
 @media(max-width:1200px){
@@ -99,46 +157,6 @@
         font-weight:bold;
         font-size:15px;
     }
-    .invite{
-        color:white;
-        font-size:15px;
-        font-weight:bold;
-        text-decoration:underline;
-        border:none;
-        background:black;
-        display:flex;
-        flex-direction:column;
-        cursor:pointer;
-    }
-    .login{           
-        justify-content:center;        
-        display:flex;
-        text-align:center;
-    }
-    .login input{
-        font-family:arial;
-        font-weight:bold;
-        font-size:15px;
-        display:flex;
-        text-align:center;
-        margin:15px;
-    }
-    .login button{
-        width:90px;
-        height:25px;
-        font-size:14px;
-        font-family:arial;
-        font-weight:bold;
-        background:white;
-        border:black;
-        border-radius:10%;
-    }
-    .login button:hover{
-        background:blue;
-        color:white;
-        font-size:16px;
-        font-family:calibri;
-    }
     .loading{
         width:100%;
         height:50vh;
@@ -182,5 +200,102 @@
     @keyframes anim3{
         0%, 100%{transform:rotate(60deg);}
         50%{transform:rotate(300deg);}
+    }    .main{
+        width:100%;
+        height:30vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin: 0 0 -35px 0;
+    }
+    #checkBox{
+        width:150px;
+        height:40px;
+        -webkit-appearance:none;
+        background:blue;
+        outline:none;
+        cursor:pointer;
+        position:relative;
+    }
+    #checkBox::before{
+        content:'Entrar';
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        font-size:1.1rem;
+        color:white;
+    }
+    #checkBox:checked ~ .mainBox{
+        display:block;
+    }
+    .mainBox{
+        position:absolute;
+        width:350px;
+        height:200px;
+        background:rgb(49, 49, 49);
+        display:none;
+    }
+    .head{
+        display:flex;
+        margin:5px 0;
+    }
+    .cl{
+        width:13px;
+        height:13px;
+        background:#ff414d;
+        border-radius:50px;
+        margin:8px 10px;
+    }
+    .cl:nth-child(2){
+        background:#f0a500;
+        margin:8px 1px;
+    }
+    .cl:nth-child(3){
+        background:#32e0c4;
+    }
+    #btn{
+        background:#4545ac;
+        padding:8px 40px;
+        cursor:pointer;
+        margin:20px 0 10px 40px;
+    }
+    #textBox{
+        width:250px;
+        height:35px;
+        margin:20px 0 10px 40px;
+        color:white;
+        background:rgb(34, 34, 34);
+        border:none;
+        outline:none;
+        padding:0 10px;
+    }
+    .invite{
+        color:white;
+        font-size:15px;
+        font-weight:bold;        
+        border:none;
+        background:black;  
+        cursor:pointer;
+        display:flex;
+        justify-content:center;
+    }
+    .invite:hover{
+        text-decoration:underline;
+    }
+    .invite2{
+        width:250px;
+        height:35px;
+        margin:20px 0 10px 35px;
+        color:white;
+        background:rgb(49, 49, 49);
+        border:none;
+        outline:none;
+        cursor:pointer;
+        padding:0 10px;
+        
+    }
+    .invite2:hover{
+        text-decoration:underline;
     }
 }

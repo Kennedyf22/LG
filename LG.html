@@ -8,11 +8,6 @@
         <link rel="stylesheet" href="css/menu.css">
         <link rel="stylesheet" href="css/messages.css">
         <script src="js/lg.js"></script>
-        <Style>
-            body{
-                background-color:black;
-            }
-        </Style>
     </head>
     <body>
         <div class="title">
@@ -25,13 +20,54 @@
         <div class="menu">
             <ol>
                 <li><a href="LG.html">Home</a></li>
-                <li><a href="LGVA.html">Vídeo Aulas</a></li>
+                <li><a href="LGVA.html">Aulas</a></li>
                 <li><a href="LGE.html">Exercícios</a></li>
             </ol>
         </div>
         <a class="logout" href="login.html">Sair</a>
         <div class="warning">
             Ainda estamos em desenvolvimento!!
+        </div>
+        <div class="banner">
+            <div class="content">
+                <div id="slide1" data-slide-content class="slides center active">
+                    <h2>Dica</h2>
+                    <p>
+                        Sempre revise o conteúdo das aulas anteriores.
+                    </p>
+                </div>
+                <div id="slide2" data-slide-content class="slides center">
+                    <h2>Aviso</h2>
+                    <p>
+                        Mantenha-se sempre atualizado junto ao lecionador.
+                    </p>
+                </div>
+                <div id="slide3" data-slide-content class="slides center">
+                    <h2>Incentivo</h2>
+                    <p>
+                        "A melhor receita de biscoitos não é a que tem gotas de chocolate, mas a que tem Amor."
+                    </p>
+                    <p>Kennedy</p>
+                </div>
+            </div>
+            <div class="slds">
+                <label class="sld" data-slide-target ="#slide1">1</label>
+                <label class="sld" data-slide-target ="#slide2">2</label>
+                <label class="sld" data-slide-target ="#slide3">3</label>
+            </div>
+            <script>
+                const sld = document.querySelectorAll("[data-slide-target]");
+                const sldcon = document.querySelectorAll("[data-slide-content]");
+                sld.forEach((slide) => {
+                    slide.addEventListener("click", () => {
+                        const target = document.querySelector(slide.dataset.slideTarget);
+                        sldcon.forEach((slide_all) => {
+                            slide_all.classList.remove("active");
+                        });
+                            target.classList.add("active");
+                    });
+                });
+            </script>
         </div>
         <div class="important">
             <div class="tabs">
@@ -98,27 +134,6 @@
                 });
             </script>
         </div>
-            <div class="notice">
-                <div class="box center">
-                    <h1 class="h1">Aviso</h1>
-                    <p>
-                        Mantenha-se sempre atualizado junto ao lecionador.
-                    </p>
-                </div>
-                <div class="box center">
-                    <h1 class="h1">Dica</h1>
-                    <p>
-                        Sempre revise o conteúdo das aulas anteriores.
-                    </p>
-                </div>
-                <div class="box center">
-                    <h1 class="h1">Incentivo</h1>
-                    <p>
-                        A melhor receita de biscoitos não é a que tem gotas de chocolate, mas a que tem Amor.
-                    </p>
-                    <p>Kennedy</p>
-                </div>
-            </div>
         <div class="contact">
             Contatos: Tel.: (11)95947-6794 -</br>
             E-mail: kennedy.fpl22@gmail.com
