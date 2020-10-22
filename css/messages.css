@@ -298,10 +298,10 @@
     .sld{
         color:white;
         font-weight:bold;
-        margin:2px;
+        margin:4px;
     }
     .slides{
-        width:87%;
+        width:84%;
         height:200px;
         font-size:18px;
         font-family:arial;
@@ -323,7 +323,7 @@
     }
     .slides p, h2{
         z-index:1000;
-        padding:8px;
+        padding:5px;
     }
     .slides{        
         display:none;
