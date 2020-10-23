@@ -5,10 +5,11 @@
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight:bold;
         font-size:18px;
+        margin:12px;
     }
     .loading{
         width:100%;
-        height:50vh;
+        height:47vh;
         display:flex;
         justify-content:center;
         align-items:center;
@@ -22,7 +23,7 @@
     }
     .box span{
         position:absolute;
-        top: -100%;
+        top: -90%;
         left:-105px;
         width:800%;
         height:80px;
@@ -156,10 +157,11 @@
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight:bold;
         font-size:15px;
+        margin:8px;
     }
     .loading{
         width:100%;
-        height:50vh;
+        height:47vh;
         display:flex;
         justify-content:center;
         align-items:center;
@@ -173,7 +175,7 @@
     }
     .box span{
         position:absolute;
-        top: -100%;
+        top: -90%;
         left:-105px;
         width:800%;
         height:80px;
@@ -279,6 +281,7 @@
         cursor:pointer;
         display:flex;
         justify-content:center;
+        margin:25px;
     }
     .invite:hover{
         text-decoration:underline;
