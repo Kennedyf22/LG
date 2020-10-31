@@ -36,24 +36,32 @@
                         Sempre revise o conteúdo das aulas anteriores.
                     </p>
                 </div>
-                <div id="slide2" data-slide-content class="slides center">
+                <div id="slide2" data-slide-content class="slides center active">
                     <h2>Aviso</h2>
                     <p>
                         Mantenha-se sempre atualizado junto ao lecionador.
                     </p>
                 </div>
-                <div id="slide3" data-slide-content class="slides center">
+                <div id="slide3" data-slide-content class="slides center active">
                     <h2>Incentivo</h2>
                     <p>
                         "A melhor receita de biscoitos não é a que tem gotas de chocolate, mas a que tem Amor."
                     </p>
                     <p>Kennedy</p>
                 </div>
+                <div id="slide4" data-slide-content class="slides center active">
+                    <h2>Aviso</h2>
+                    <p>
+                        Lembre-se de que este curso, por hora, não emite certificados.<br>
+                        O ensinamento é dedicado ao crescimento pessoal.
+                    </p>
+                </div>
             </div>
             <div class="slds">
-                <label class="sld" data-slide-target ="#slide1">1</label>
-                <label class="sld" data-slide-target ="#slide2">2</label>
-                <label class="sld" data-slide-target ="#slide3">3</label>
+                <label class="sld" data-slide-target ="#slide1"></label>
+                <label class="sld" data-slide-target ="#slide2"></label>
+                <label class="sld" data-slide-target ="#slide3"></label>
+                <label class="sld" data-slide-target ="#slide4"></label>
             </div>
             <script>
                 const sld = document.querySelectorAll("[data-slide-target]");
@@ -67,6 +75,20 @@
                             target.classList.add("active");
                     });
                 });
+                var slideIndex = 0;
+                carousel();
+                
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("slides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > x.length) {slideIndex = 1}
+                    x[slideIndex-1].style.display = "flex";
+                    setTimeout(carousel, 7000);
+                }
             </script>
         </div>
         <div class="important">
@@ -104,7 +126,7 @@
                 <div id="tab3" data-tab-content class="items">
                     <h2>R3- Atividades</h2>
                     <p>
-                        O prazo de entrega das atividades será de uma(1) semana a contar do dia em que a aula correspondente for assistida.
+                        O prazo de entrega das atividades será de uma(1) semana a contar do dia em que for solicitado.
                     </p>
                 </div>
                 <div id="tab4" data-tab-content class="items">
@@ -133,6 +155,11 @@
                     });
                 });
             </script>
+        </div>
+        <h2 class="visitp">Visite também:</h2><br>
+        <div class="visit">
+        <img src="img/ir_maos.png">
+        <a href="https://www.instagram.com/ir_maoslibras/"></a>
         </div>
         <div class="contact">
             Contatos: Tel.: (11)95947-6794 -</br>

@@ -1,33 +1,70 @@
 @media(min-width:1201px){
-    .mod button{
-        background-color:black;
-        color:white;
+    .mod-class{
+        height:100px;
+        border:1px solid white;
+        margin:40px 20px -20px 20px;
+        display:flex;
+        flex-direction:row;
+    }
+    .mod-class > li a{
+        width:95.59%;
+        height:99px;
+        color:transparent;
+        position:absolute;
+        background-color: transparent;
+        margin:-1px -23px;
+    }
+    .mod-class > li a:hover{
+        border: 2px solid red;
+    }
+    iframe{
+        width:198px;
+        height:100px;
+        margin:0 0 0 -22px;        
+    }
+    .mod-title{
+        width:100%;
+        height:100%;
+        font-size:18px;
+        font-family:arial;
         font-weight:bold;
-        font-size:20px;
-        margin:10px;
-        padding:7px;
         text-align:center;
-        width:300px;
+        color:white;
+        padding:20px;
     }
 }
 @media(max-width:1200px){
-    .mod button{
-        background-color:black;
-        color:white;
+    .mod-class{
+        height:100px;
+        border:1px solid white;
+        margin:40px 20px -20px 20px;
+        display:flex;
+        flex-direction:row;
+    }
+    .mod-class > li a{
+        width:88%;
+        height:99px;
+        color:transparent;
+        position:absolute;
+        background-color: transparent;
+        margin:-1px -23px;
+    }
+    .mod-class > li a:hover{
+        border: 2px solid red;
+    }
+    iframe{
+        width:198px;
+        height:100px;
+        margin:0 0 0 -22px;        
+    }
+    .mod-title{
+        width:100%;
+        height:100%;
+        font-size:15px;
+        font-family:arial;
         font-weight:bold;
-        font-size:10px;
-        margin:5px;
-        padding:5px;
         text-align:center;
-        width:250px;        
-        display:center;
-    }
-    .mod button:hover{
-        border:2px solid white;
-        background-color:blue;
-    }
-    .mod{
-       margin:1px;
-       align-items:center;
+        color:white;
+        padding:10px;
     }
 }
