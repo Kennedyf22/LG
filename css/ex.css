@@ -1,0 +1,105 @@
+@media(min-width:1201px){
+    #quiz{
+        display:grid;
+        align-items:center;
+        grid-column-gap:20px;
+        grid-row-gap:20px;
+        grid-template-columns: auto auto;
+    }
+    .question{
+        font-size:20px;
+        text-decoration:none;
+        text-align:center;
+        border:2px solid white;
+        color:white;
+    }
+    .question:hover{
+        border:2px solid red;
+    }
+    iframe{
+        height:100%;
+        width:100%;
+        border:black;
+        }
+    .class{
+        position:absolute;
+        top:260px;
+        right:0;
+        left:0;
+        width:100%;
+        height:50%;
+    }
+    .detail > a{
+        text-decoration:none;
+        color:white;
+    }
+    .detail > a:hover{
+        text-decoration:underline;
+    }
+    .activity{
+        height:280px;
+        font-size:15px;
+        font-family:arial;
+        font-weight:bold;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+        color:white;
+        margin:0 20px;
+        padding:10px 0;
+    }
+    .activity > .duration{
+        text-decoration:underline;
+    }
+}
+@media(max-width:1200px){
+    #quiz{
+        display:grid;
+        align-items:center;
+        grid-column-gap:20px;
+        grid-row-gap:20px;
+        grid-template-columns: auto auto;
+    }
+    .question{
+        font-size:15px;
+        text-decoration:none;
+        text-align:center;
+        border:2px solid white;
+        color:white;
+    }
+    iframe{
+        height:100%;
+        width:100%;
+        border:black;
+        }
+    .class{
+        position:absolute;
+        top:260px;
+        right:0;
+        left:0;
+        width:100%;
+        height:50%;
+    }
+    .detail > a{
+        text-decoration:none;
+        color:white;
+    }
+    .detail > a:hover{
+        text-decoration:underline;
+    }
+    .activity{
+        height:280px;
+        font-size:15px;
+        font-family:arial;
+        font-weight:bold;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+        color:white;
+        margin:0 20px;
+        padding:10px 0;
+    }
+    .activity > .duration{
+        text-decoration:underline;
+    }
+}
