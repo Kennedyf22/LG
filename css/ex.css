@@ -74,11 +74,11 @@
         }
     .class{
         position:absolute;
-        top:260px;
+        top:203px;
         right:0;
         left:0;
         width:100%;
-        height:50%;
+        height:210px;
     }
     .detail > a{
         text-decoration:none;
