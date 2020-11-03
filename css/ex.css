@@ -51,6 +51,29 @@
     .activity > .duration{
         text-decoration:underline;
     }
+    .description2{
+        font-family:arial, sans-serif;
+        font-size:15px;
+        font-weight:bold;
+        color:white;
+        text-align:center;
+        padding:10px;
+        position:absolute;
+        top:560px;
+        left:0;
+        right:0;
+    }
+    .detail2{
+        color:white;
+        font-size:15px;
+        font-weight:bold;
+        position:absolute;
+        text-align:center;
+        border:1px solid white;
+        top:620px;
+        left:0;
+        right:0;
+    }
 }
 @media(max-width:1200px){
     #quiz{
@@ -101,5 +124,28 @@
     }
     .activity > .duration{
         text-decoration:underline;
+    }
+    .description2{
+        font-family:arial, sans-serif;
+        font-size:15px;
+        font-weight:bold;
+        color:white;
+        text-align:center;
+        padding:10px;
+        position:absolute;
+        top:520px;
+        left:0;
+        right:0;
+    }
+    .detail2{
+        color:white;
+        font-size:13px;
+        font-weight:bold;
+        position:absolute;
+        text-align:center;
+        border:1px solid white;
+        top:600px;
+        left:0;
+        right:0;
     }
 }
