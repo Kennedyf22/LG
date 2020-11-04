@@ -132,8 +132,8 @@
         color:white;
         text-align:center;
         padding:10px;
-        position:absolute;
-        top:520px;
+        position:relative;
+        top:120px;
         left:0;
         right:0;
     }
@@ -141,10 +141,10 @@
         color:white;
         font-size:13px;
         font-weight:bold;
-        position:absolute;
+        position:relative;
         text-align:center;
         border:1px solid white;
-        top:600px;
+        top:130px;
         left:0;
         right:0;
     }
