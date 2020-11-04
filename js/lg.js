@@ -23,3 +23,7 @@ window.onpageshow=function(evt){if(evt.persisted)noBack()
 
 window.onunload=function(){void(0)
 }
+setTimeout(function() {
+    alert("Logout por inatividade");
+    window.location.href = "login.html";
+}, 1800000);
