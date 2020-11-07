@@ -29,18 +29,74 @@
         width:100%;
         height:50%;
     }
-    .detail > a{
-        text-decoration:none;
+    .answer {
+        height: 40px;
+        width: 80px;
+        align-items:center;
+        margin-left: 20px;
+        margin-top: 55px;
+        margin:335px 60px 0 0;
+        background: blue;
+        display: inline-block;
+        position: relative;
+        float:right;
+      }
+      .answer:before {
+        left: 80px;
+        border-left: 35px solid blue;
+        border-bottom: 20px solid transparent;
+        border-top: 21px solid transparent;
+        content: "";
+        position: absolute;
+      }
+    .answer > a{
+        width:110px;
+        height:38px;
         color:white;
+        padding:1px 10px 1px 10px;
+        font-weight:bold;
+        text-align:center;
+        text-decoration:none;
+        align-items:center;
+        display:flex;
+        position:absolute;
     }
-    .detail > a:hover{
+    .answer > a:hover{
         text-decoration:underline;
     }
-    .detail2 > a{
-        text-decoration:none;
+    .answer2 {
+        height: 40px;
+        width: 80px;
+        align-items:center;
+        margin-left: 20px;
+        margin-top: 55px;
+        margin:35px 60px 0 0;
+        background: blue;
+        display: inline-block;
+        position: relative;
+        float:right;
+      }
+      .answer2:before {
+        left: 80px;
+        border-left: 35px solid blue;
+        border-bottom: 20px solid transparent;
+        border-top: 21px solid transparent;
+        content: "";
+        position: absolute;
+      }
+    .answer2 > a{
+        width:110px;
+        height:38px;
         color:white;
+        padding:1px 10px 1px 10px;
+        font-weight:bold;
+        text-align:center;
+        text-decoration:none;
+        align-items:center;
+        display:flex;
+        position:absolute;
     }
-    .detail2 > a:hover{
+    .answer2 > a:hover{
         text-decoration:underline;
     }
     .activity{
@@ -67,17 +123,6 @@
         padding:10px;
         position:absolute;
         top:560px;
-        left:0;
-        right:0;
-    }
-    .detail2{
-        color:white;
-        font-size:15px;
-        font-weight:bold;
-        position:absolute;
-        text-align:center;
-        border:1px solid white;
-        top:620px;
         left:0;
         right:0;
     }
@@ -110,18 +155,74 @@
         width:100%;
         height:210px;
     }
-    .detail > a{
-        text-decoration:none;
+    .answer {
+        height: 40px;
+        width: 80px;
+        align-items:center;
+        margin-left: 20px;
+        margin-top: 55px;
+        margin:330px 50px 0 0;
+        background: blue;
+        display: inline-block;
+        position: relative;
+        float:right;
+      }
+      .answer:before {
+        left: 80px;
+        border-left: 35px solid blue;
+        border-bottom: 20px solid transparent;
+        border-top: 21px solid transparent;
+        content: "";
+        position: absolute;
+      }
+    .answer > a{
+        width:110px;
+        height:38px;
         color:white;
+        padding:1px 10px 1px 10px;
+        font-weight:bold;
+        text-align:center;
+        text-decoration:none;
+        align-items:center;
+        display:flex;
+        position:absolute;
     }
-    .detail > a:hover{
+    .answer > a:hover{
         text-decoration:underline;
     }
-    .detail2 > a{
-        text-decoration:none;
+    .answer2 {
+        height: 40px;
+        width: 80px;
+        align-items:center;
+        margin-left: 20px;
+        margin-top: 55px;
+        margin:10px 50px 0 0;
+        background: blue;
+        display: inline-block;
+        position: relative;
+        float:right;
+      }
+      .answer2:before {
+        left: 80px;
+        border-left: 35px solid blue;
+        border-bottom: 20px solid transparent;
+        border-top: 21px solid transparent;
+        content: "";
+        position: absolute;
+      }
+    .answer2 > a{
+        width:110px;
+        height:38px;
         color:white;
+        padding:1px 10px 1px 10px;
+        font-weight:bold;
+        text-align:center;
+        text-decoration:none;
+        align-items:center;
+        display:flex;
+        position:absolute;
     }
-    .detail2 > a:hover{
+    .answer2 > a:hover{
         text-decoration:underline;
     }
     .activity{
@@ -148,14 +249,5 @@
         padding:10px;
         position:relative;
         margin:180px 0 0 0;
-    }
-    .detail2{
-        color:white;
-        font-size:13px;
-        font-weight:bold;
-        position:relative;
-        text-align:center;
-        margin:10px 0 0 0;
-        border:1px solid white;
     }
 }
