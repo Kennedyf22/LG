@@ -8,6 +8,7 @@ if (password=="2020061") { window.location="https://kennedyf22.github.io/LG/LG.h
 if (password=="2020051") { window.location="https://kennedyf22.github.io/LG/LG.html"; done=1; }
 if (password=="2020033") { window.location="https://kennedyf22.github.io/LG/LG.html"; done=1; }
 if (password=="2020101") { window.location="https://kennedyf22.github.io/LG/LG.html"; done=1; }
+if (password=="2020111") { window.location="https://kennedyf22.github.io/LG/LG.html"; done=1; }
 if (done==0) { alert("Senha ou Usuário inválido."); }
 }
 
