@@ -201,6 +201,24 @@
         color:white;
         margin:0 20px;
     }
+    .warstop-txt1{
+        font-size:20px;
+        color:white;
+        text-align:center;
+        border:1px solid white;
+        margin:100px 100px 0 100px;
+    }
+    .warstop-txt2{
+        font-size:50px;
+        font-weight:bold;
+        text-align:center;
+        color:white;
+        Font-family:Brush Script MT, Brush Script Std, cursive;
+        align-items:center;
+        justify-content:center;
+        padding:15px 0px 6px 0px;
+        margin: 0 20px 0 20px;
+    }
 }
 @media(max-width:1200px){
     .warning{
@@ -401,5 +419,23 @@
         font-weight:bold;
         color:white;
         margin:0 20px;
+    }
+    .warstop-txt1{
+        font-size:20px;
+        color:white;
+        text-align:center;
+        border:1px solid white;
+        margin:50px 50px 0 50px;
+    }
+    .warstop-txt2{
+        font-size:50px;
+        font-weight:bold;
+        text-align:center;
+        color:white;
+        Font-family:Brush Script MT, Brush Script Std, cursive;
+        align-items:center;
+        justify-content:center;
+        padding:15px 0px 6px 0px;
+        margin: 0 20px 0 20px;
     }
 }
