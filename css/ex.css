@@ -133,9 +133,8 @@
 @media(max-width:1200px){
     .btme1{
         display:grid;
-        grid-template-columns:400px;
+        grid-template-columns:400px 400px;
         grid-template-rows:110px;
-        margin:20px;
     }
     .btme2{        
         width:80%;
