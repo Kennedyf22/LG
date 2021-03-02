@@ -33,12 +33,13 @@
     .mod-mn{
         display:grid;
         grid-template-columns:450px;
-        grid-template-rows:160px;
+        grid-template-rows:120px;
         margin:20px 0;
+        border:1px solid white;
     }
     .mod-mn > .mod-class{
         width:90%;
-        height:140px;
+        height:100px;
         margin:2% 12% 2% 2%;
         border:1px solid white;
     }
@@ -46,22 +47,25 @@
         border:2px solid red;
     }
     .mod-mn > .mod-class > a{
-        width:410px;
-        height:140px;
+        width:405px;
+        height:100px;
         position:absolute;
+        border:1px solid white;
     }
     .mod-mn > .mod-class > .mod-title{
-        width:180px;
+        width:170px;
         height:70px;
         font-family:arial;
-        font-size:12px;
+        font-size:13px;
         color:white;
         text-align:center;
-        margin:40px 15px 0 0;
+        margin:15px 20px;
         float:right;
+        border:1px solid white;
     }
     .mod-mn > .mod-class> iframe{
-        width:200px;
-        height:140px;
+        width:170px;
+        height:100px;
+        border:1px solid white;
     }
 }
