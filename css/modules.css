@@ -38,7 +38,7 @@
         border:1px solid white;
     }
     .mod-mn > .mod-class{
-        width:86%;
+        width:455px;
         height:100px;
         margin:2% 12% 2% 2%;
         border:1px solid white;
@@ -47,7 +47,7 @@
         border:2px solid red;
     }
     .mod-mn > .mod-class > a{
-        width:405px;
+        width:455px;
         height:100px;
         position:absolute;
         border:1px solid white;
