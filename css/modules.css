@@ -33,13 +33,13 @@
     .mod-mn{
         display:grid;
         grid-template-columns:470px;
-        grid-template-rows:280px;
+        grid-template-rows:270px;
         margin:20px 0;
     }
     .mod-mn > .mod-class{
         width:360px;
         height:230px;
-        margin:2% 12% 2% 2%;
+        margin:2% 12% 2% 1%;
         border:1px solid white;
     }
     .mod-mn > .mod-class:hover{
