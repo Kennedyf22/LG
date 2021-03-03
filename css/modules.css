@@ -38,7 +38,7 @@
     }
     .mod-mn > .mod-class{
         width:360px;
-        height:250px;
+        height:230px;
         margin:2% 12% 2% 2%;
         border:1px solid white;
     }
@@ -47,7 +47,7 @@
     }
     .mod-mn > .mod-class > a{
         width:360px;
-        height:250px;
+        height:230px;
         position:absolute;
     }
     .mod-mn > .mod-class > .mod-title{
