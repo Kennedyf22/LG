@@ -39,7 +39,7 @@
     .mod-mn > .mod-class{
         width:360px;
         height:230px;
-        margin:2% 12% 2% 1%;
+        margin:2% 12% 2% 0;
         border:1px solid white;
     }
     .mod-mn > .mod-class:hover{
