@@ -11,6 +11,9 @@ if (password=="2020101") { window.location="https://kennedyf22.github.io/LG/LG.h
 if (password=="2020111") { window.location="https://kennedyf22.github.io/LG/warstop.html"; done=1; }/*ZO*/
 if (password=="2020121") { window.location="https://kennedyf22.github.io/LG/LG.html"; done=1; }/*JVPR*/
 if (password=="2021031") { window.location="https://kennedyf22.github.io/LG/LG.html"; done=1; }/*LGB*/
+if (password=="2021032") { window.location="https://kennedyf22.github.io/LG/LG.html"; done=1; }/*ISA*/
+if (password=="2021033") { window.location="https://kennedyf22.github.io/LG/LG.html"; done=1; }/*APG*/
+if (password=="2021034") { window.location="https://kennedyf22.github.io/LG/LG.html"; done=1; }/*GRS*/
 if (done==0) { alert("Senha ou Usuário inválido."); }
 }
 
