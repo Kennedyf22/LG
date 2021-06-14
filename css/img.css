@@ -1,9 +1,65 @@
-.blimg1>img{
-    width:30%;
-    height:100%;
-    margin:0 0 0 25%;
+#logo img{
+    width:60px;
+    margin: -10px 2px 0 2px;  
 }
-.blcont>div>img{
-    width:200px;
-    height:130px;
+#libras{
+    width:20ch;
+    height:100%;
+    text-align:center;
+    align-items:center;
+}
+#conteinerArt img{
+    width:197px;
+    border-start-start-radius:20px;
+    border-start-end-radius:20px;
+}
+#clove{
+    width:20ch;
+    height:100%;
+    text-align:center;
+    align-items:center;
+}
+.visit1>img{
+    width:150px;
+    border-radius:100px;
+}
+.visit2>img{
+    margin:8px 0 0 7px;
+    width:145px;
+    border-radius:100px;
+}
+#md1va{
+    width:100%;
+    margin: 25px 0 25px 0;
+    border-radius:20%;
+}
+#md2va{
+    width:85%;
+    margin:5px 0 7px 0;
+    border-radius:10px;
+
+}
+#exeesc{
+    width:156px;
+    height:170px;
+    border-radius:20px;
+}
+.blimg>img{
+    width:320px;
+    height:250px;
+    margin:-20px 0 0 0;
+}
+.mod-blog>img{
+    width:100%;
+    border-start-start-radius:20px;
+    border-start-end-radius:20px;
+}
+#blgimg1{
+    width:100%;
+    height:80%;
+}
+#blgimg2{
+    width:100%;
+    height:60%;
+    margin:20px 0 0 0;
 }

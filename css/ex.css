@@ -1,263 +1,62 @@
-@media(min-width:1201px){
-    .btme1{
-        display:grid;
-        grid-template-columns:400px 400px 400px;
-        grid-template-rows:110px;
-        margin:20px;
-    }
-    .btme2{        
-        width:80%;
-        height:18px;
-        color:white;
-        text-align:center;
-        text-decoration:none;
-        padding:22px 0;
-        border:1px solid white;        
-        margin:20px 90px;
-    }
-    .btme2:hover{
-        color:blue;
-        border:3px solid red;
-    }
-    iframe{
-        height:100%;
-        width:100%;
-        border:black;
-        }
-    .class{
-        position:absolute;
-        top:260px;
-        right:0;
-        left:0;
-        width:100%;
-        height:50%;
-    }
-    .answer {
-        height: 40px;
-        width: 80px;
-        align-items:center;
-        margin-left: 20px;
-        margin-top: 55px;
-        margin:335px 60px 0 0;
-        background: blue;
-        display: inline-block;
-        position: relative;
-        float:right;
-      }
-      .answer:before {
-        left: 80px;
-        border-left: 35px solid blue;
-        border-bottom: 20px solid transparent;
-        border-top: 21px solid transparent;
-        content: "";
-        position: absolute;
-      }
-    .answer > a{
-        width:110px;
-        height:38px;
-        color:white;
-        padding:1px 10px 1px 10px;
-        font-weight:bold;
-        text-align:center;
-        text-decoration:none;
-        align-items:center;
-        display:flex;
-        position:absolute;
-    }
-    .answer > a:hover{
-        text-decoration:underline;
-    }
-    .answer2 {
-        height: 40px;
-        width: 80px;
-        align-items:center;
-        margin-left: 20px;
-        margin-top: 55px;
-        margin:35px 60px 0 0;
-        background: blue;
-        display: inline-block;
-        position: relative;
-        float:right;
-      }
-      .answer2:before {
-        left: 80px;
-        border-left: 35px solid blue;
-        border-bottom: 20px solid transparent;
-        border-top: 21px solid transparent;
-        content: "";
-        position: absolute;
-      }
-    .answer2 > a{
-        width:110px;
-        height:38px;
-        color:white;
-        padding:1px 10px 1px 10px;
-        font-weight:bold;
-        text-align:center;
-        text-decoration:none;
-        align-items:center;
-        display:flex;
-        position:absolute;
-    }
-    .answer2 > a:hover{
-        text-decoration:underline;
-    }
-    .activity{
-        height:280px;
-        font-size:15px;
-        font-family:arial;
-        font-weight:bold;
-        text-align:center;
-        display:flex;
-        flex-direction:column;
-        color:white;
-        margin:0 20px;
-        padding:10px 0;
-    }
-    .activity > .duration{
-        text-decoration:underline;
-    }
-    .description2{
-        font-family:arial, sans-serif;
-        font-size:15px;
-        font-weight:bold;
-        color:white;
-        text-align:center;
-        padding:10px;
-        position:absolute;
-        top:560px;
-        left:0;
-        right:0;
-    }
+.modexer{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 30px;
 }
-@media(max-width:1200px){
-    .btme1{
-        display:grid;
-        grid-template-columns:400px;
-        grid-template-rows:110px;
-    }
-    .btme2{        
-        width:80%;
-        height:18px;
-        color:white;
-        text-align:center;
-        text-decoration:none;
-        padding:22px 0;
-        border:1px solid white;        
-        margin:20px 18px;
-    }
-    .btme2:hover{
-        color:blue;
-        border:3px solid red;
-    }
-    iframe{
-        height:100%;
-        width:100%;
-        border:black;
-        }
-    .class{
-        position:absolute;
-        top:203px;
-        right:0;
-        left:0;
-        width:100%;
-        height:210px;
-    }
-    .answer {
-        height: 40px;
-        width: 80px;
-        align-items:center;
-        margin-left: 20px;
-        margin-top: 55px;
-        margin:330px 50px 0 0;
-        background: blue;
-        display: inline-block;
-        position: relative;
-        float:right;
-      }
-      .answer:before {
-        left: 80px;
-        border-left: 35px solid blue;
-        border-bottom: 20px solid transparent;
-        border-top: 21px solid transparent;
-        content: "";
-        position: absolute;
-      }
-    .answer > a{
-        width:110px;
-        height:38px;
-        color:white;
-        padding:1px 10px 1px 10px;
-        font-weight:bold;
-        font-size:13px;
-        text-align:center;
-        text-decoration:none;
-        align-items:center;
-        display:flex;
-        position:absolute;
-    }
-    .answer > a:hover{
-        text-decoration:underline;
-    }
-    .answer2 {
-        height: 40px;
-        width: 80px;
-        align-items:center;
-        margin-left: 20px;
-        margin-top: 55px;
-        margin:10px 50px 0 0;
-        background: blue;
-        display: inline-block;
-        position: relative;
-        float:right;
-      }
-      .answer2:before {
-        left: 80px;
-        border-left: 35px solid blue;
-        border-bottom: 20px solid transparent;
-        border-top: 21px solid transparent;
-        content: "";
-        position: absolute;
-      }
-    .answer2 > a{
-        width:110px;
-        height:38px;
-        color:white;
-        padding:1px 10px 1px 10px;
-        font-size:13px;
-        font-weight:bold;
-        text-align:center;
-        text-decoration:none;
-        align-items:center;
-        display:flex;
-        position:absolute;
-    }
-    .answer2 > a:hover{
-        text-decoration:underline;
-    }
-    .activity{
-        height:280px;
-        font-size:15px;
-        font-family:arial;
-        font-weight:bold;
-        text-align:center;
-        display:flex;
-        flex-direction:column;
-        color:white;
-        margin:0 20px 20px;
-        padding:10px 0;
-    }
-    .activity > .duration{
-        text-decoration:underline;
-    }
-    .description2{
-        font-family:arial, sans-serif;
-        font-size:15px;
-        font-weight:bold;
-        color:white;
-        text-align:center;
-        padding:10px;
-        position:relative;
-        margin:180px 0 0 0;
-    }
+.mod-exe{
+    align-items:center;
+    text-align:center;
+    font-size:20px;
+    width:160px;
+    height:220px;
+    margin: 20px  10px 20px 25px;
+    background-color:white;
+    border-radius:20px;
+    border:2px solid rgb(32, 9, 116);    
+}
+.mod-exe>a{
+    position:absolute;
+    width:160px;
+    height:220px;
+    margin:-2px 0 0 -2px;
+    border-radius:20px;
+}
+.mod-exe>p{
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    margin: 5px 0 0 0;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    border-top:2px solid rgb(32, 9, 116);
+}
+.mod-exe>iframe{
+    width:100%;
+    height:82%;
+    margin: 0 0 -12px 0;
+    background-color:black;
+    border-top-left-radius:18px;
+    border-top-right-radius:18px;
+}
+.mod-exe>a:hover{
+    position:absolute;
+    width:160px;
+    height:220px;
+    margin:-2px 0 0 -2px;
+    border-radius:20px;
+    border:3px solid red;
+}
+.btn{
+    margin:0 0 60px 0;
+}
+.activity{
+    width:100%;
+    height:85%;
+    text-align:center;
+    font-weight:bold;
+    color:black;
+    margin: -120px 0 20px 0;
+    background-color:white;
+    border:3px solid rgb(32, 9, 116);
+    border-radius:20px;
 }

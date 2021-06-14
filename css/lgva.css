@@ -1,53 +1,24 @@
-@media(min-width:1201px){
-    .mod a{
-        background-color:black;
-        color:white;
-        font-weight:bold;
-        font-size:20px;
-        margin:10px;
-        padding:7px;
-        text-align:center;
-        text-decoration:none;
-    }
-    .mod a:hover{
-        border:1px solid white;
-        background-color:blue;
-    }
-    .mod li{
-        margin:5px;
-        padding:7px;
-        align-items:center;
-    }
-    p{
-        color:white;
-        text-align:center;
-        padding:15px;
-    }
+.mod{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 20px;
 }
-@media(max-width:1200px){
-    .mod a{
-        background-color:black;
-        color:white;
-        font-weight:bold;
-        font-size:12px;
-        margin:2px;
-        padding:7px;
-        text-align:center;
-        text-decoration:none;
-    }
-    .mod a:hover{
-        border:1px solid white;
-        background-color:blue;
-    }
-    .mod li{
-        margin:3px 1px;
-        padding:2px;
-        align-items:center;
-        border: solid black;
-    }
-    p{
-        color:white;
-        text-align:center;
-        padding:12px;
-    }
+.mod-class-mn{
+    align-items:center;
+    text-align:center;
+    font-size:20px;
+    width:180px;
+    height:200px;
+    margin: 20px  10px 20px 25px;
+    background-color:white;
+    border-radius:20px;
+    border:2px solid rgb(32, 9, 116);
+}
+.mod-class-mn>a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+.mod-class-mn>a>p{
+    border-top:2px solid rgb(32, 9, 116);
 }
