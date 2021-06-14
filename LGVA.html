@@ -1,38 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
-        <title>Libras Guara- Vídeo aulas</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">        
         <link rel="stylesheet" href="css/logo.css">
+        <link rel="stylesheet" href="css/img.css">
         <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/lgva.css">
         <script src="js/lg.js"></script>
+        <title>Libras Guara- Vídeo Aulas</title>
     </head>
     <body>
-        <div class="title">
-            <img src="Logo1.jpg" alt="Logo">
-            Libras Guara            
-        </div>
-        <div class="subtitle">
-            Vídeo aulas
-        </div>
-        <div class="menu">
-            <ol>
-                <li><a href="LG.html">Home</a></li>
-                <li><a href="LGVA.html">Aulas</a></li>
-                <li><a href="LGE.html">Exercícios</a></li>
-                <li><a href="mnblog.html">Blog</a></li>
-            </ol>
-        </div>
-        <a class="logout" href="login.html">Sair</a>
-        <p>Total de 21 aulas em 02:06:38</p>
-        <div class="mod">
-            <ul>
-                <li><a href="lgin.html">Introdução</a></li>
-                <li><a href="md1.html">Módulo 1</a></li>
-                <li><a href="md2.html">Módulo 2</a></li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <div class="container logo">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="logo">
+                <a href="LG.html"><img src="img/logosf1.png" alt="Logo">Libras Guara</a>
+                </div>
+                <div class="collapse navbar-collapse menu" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active "><a class="nav-link" href="LG.html"> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Aulas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="LGE.html"> Exercícios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mnblog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-sm-6">
+                            <h5>20 Aulas, totalizando 2h39m</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <article>
+            <div class="container">
+                <div class="row row-content">
+                    <div class="col-sm-12 col-sm-6">                        
+                        <div class="mod">
+                            <div class="mod-class-mn">
+                                <a href="md1.html" ><img src="img/md1va.jpg" id="md1va" alt="Módulo 1">
+                                <p>Módulo 1</p></a>
+                            </div>
+                            <div class="mod-class-mn">
+                                <a href="md2.html" ><img src="img/md2va.jpg" id="md2va" alt="Módulo 1">
+                                    <p>Módulo 2</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer>
+            © Libras Guara 2020
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </body>
 </html>

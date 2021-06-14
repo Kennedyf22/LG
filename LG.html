@@ -1,173 +1,210 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
-        <title>Libras Guara</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/login.css">
         <link rel="stylesheet" href="css/logo.css">
+        <link rel="stylesheet" href="css/img.css">
         <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/messages.css">
         <script src="js/lg.js"></script>
+        <title>Libras Guara- Home</title>
     </head>
     <body>
-        <div class="title">
-            <img src="Logo1.jpg" alt="Logo">
-            Libras Guara            
-        </div>
-        <div class="subtitle">
-            Bem-vindo ao curso online de Língua brasileira de sinais!
-        </div>
-        <div class="menu">
-            <ol>
-                <li><a href="LG.html">Home</a></li>
-                <li><a href="LGVA.html">Aulas</a></li>
-                <li><a href="LGE.html">Exercícios</a></li>
-                <li><a href="mnblog.html">Blog</a></li>
-            </ol>
-        </div>
-        <a class="logout" href="login.html">Sair</a>
-        <div class="banner">
-            <div class="content">
-                <div id="slide1" data-slide-content class="slides center active">
-                    <h2>Dica</h2>
-                    <p>
-                        Sempre revise o conteúdo das aulas anteriores.
-                    </p>
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <div class="container logo">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="logo">
+                <a href="LG.html"><img src="img/logosf1.png" alt="Logo">Libras Guara</a>
                 </div>
-                <div id="slide2" data-slide-content class="slides center active">
-                    <h2>Aviso</h2>
-                    <p>
-                        Mantenha-se sempre atualizado junto ao lecionador.
-                    </p>
-                </div>
-                <div id="slide3" data-slide-content class="slides center active">
-                    <h2>Incentivo</h2>
-                    <p>
-                        "A melhor receita de biscoitos não é a que tem gotas de chocolate, mas a que tem Amor."
-                    </p>
-                    <p>Kennedy</p>
-                </div>
-                <div id="slide4" data-slide-content class="slides center active">
-                    <h2>Aviso</h2>
-                    <p>
-                        Lembre-se de que este curso, por hora, não emite certificados.<br>
-                        O ensinamento é dedicado ao crescimento pessoal.
-                    </p>
+                <div class="collapse navbar-collapse menu" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active "><a class="nav-link" href="LG.html"> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="LGVA.html"> Aulas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="LGE.html"> Exercícios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mnblog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Sair</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="slds">
-                <label class="sld" data-slide-target ="#slide1"></label>
-                <label class="sld" data-slide-target ="#slide2"></label>
-                <label class="sld" data-slide-target ="#slide3"></label>
-                <label class="sld" data-slide-target ="#slide4"></label>
+        </nav>
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-sm-6">
+                        <div class="banner">
+                            <div class="content">
+                                <div id="slide1" data-slide-content class="slides center active">
+                                    <h2>Dica</h2>
+                                    <p>
+                                        Sempre revise o conteúdo das aulas anteriores.
+                                    </p>
+                                </div>
+                                <div id="slide2" data-slide-content class="slides center active">
+                                    <h2>Aviso</h2>
+                                    <p>
+                                        Mantenha-se sempre atualizado junto ao lecionador.
+                                    </p>
+                                </div>
+                                <div id="slide3" data-slide-content class="slides center active">
+                                    <h2>Incentivo</h2>
+                                    <p>
+                                        "A melhor receita de biscoitos não é a que tem gotas de chocolate, mas a que tem Amor."
+                                    </p>
+                                    <p>Kennedy</p>
+                                </div>
+                                <div id="slide4" data-slide-content class="slides center active">
+                                    <h2>Aviso</h2>
+                                    <p>
+                                        Lembre-se de que este curso, por hora, não emite certificados.<br>
+                                        O ensinamento é dedicado ao crescimento pessoal.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slds">
+                                <label class="sld" data-slide-target ="#slide1"></label>
+                                <label class="sld" data-slide-target ="#slide2"></label>
+                                <label class="sld" data-slide-target ="#slide3"></label>
+                                <label class="sld" data-slide-target ="#slide4"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <script>
-                const sld = document.querySelectorAll("[data-slide-target]");
-                const sldcon = document.querySelectorAll("[data-slide-content]");
-                sld.forEach((slide) => {
-                    slide.addEventListener("click", () => {
-                        const target = document.querySelector(slide.dataset.slideTarget);
-                        sldcon.forEach((slide_all) => {
-                            slide_all.classList.remove("active");
-                        });
-                            target.classList.add("active");
+        </header>
+        <article>
+            <div class="container">
+                <div class="row row-content">
+                    <div class="col-sm-8 col-sm-6">                        
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TnOuYmf44L0?showinfo=0&modestbranding=1&showinfo=0&rel=0&playlist=TnOuYmf44L0&loop=1&autoplay=1&controls=1"></iframe>
+                          </div>
+                        <div class="important">
+                            <div class="tabs">
+                                <div class="tab" data-tab-target ="#tab1">
+                                    <p>Regra 1</p>
+                                </div>
+                                <div class="tab" data-tab-target ="#tab2">
+                                    <p>Regra 2</p>
+                                </div>
+                                <div class="tab" data-tab-target ="#tab3">
+                                    <p>Regra 3</p>
+                                </div>
+                                <div class="tab" data-tab-target ="#tab4">
+                                    <p>Regra 4</p>
+                                </div>
+                                <div class="tab" data-tab-target ="#tab5">
+                                    <p>Regra 5</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div id="tab1" data-tab-content class="items active">
+                                    <h4>R1- Compartilhamento</h4>
+                                    <p>
+                                        Nunca compartilhe o conteúdo e nem o link deste curso. Todo este material é exclusivo. Caso alguém se interesse, 
+                                        por gentileza, encaminhe-o a mim.
+                                    </p>
+                                </div>
+                                <div id="tab2" data-tab-content class="items">
+                                    <h4>R2- Aulas</h4>
+                                    <p>
+                                        Deverá ser dedicado uma(1) semana de treinamento para cada aula assistida para que, assim, haja absorção do conteúdo. Não maratone!
+                                    </p>
+                                </div>
+                                <div id="tab3" data-tab-content class="items">
+                                    <h4>R3- Atividades</h4>
+                                    <p>
+                                        O prazo de entrega das atividades será de uma(1) semana a contar do dia em que for solicitado.
+                                    </p>
+                                </div>
+                                <div id="tab4" data-tab-content class="items">
+                                    <h4>R4- Alunos</h4>
+                                    <p>
+                                        Poderão participar deste curso, apenas pessoas com idade igual ou superior a 12 anos.
+                                    </p>
+                                </div>
+                                <div id="tab5" data-tab-content class="items">
+                                    <h4>R5- Valor(R$)</h4>
+                                    <p>
+                                        O valor será fixo, isto é, R$50,00/mês por pessoa. Os métodos de pagamento serão acordados no ato da inscrição.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fdbc">
+                            <h2>Feedback</h2>
+                            <p>
+                                Caso você tenha alguma dica, ideia, crítica, opinião e afins, e deseja compartilhar, dê-nos o seu feedback.
+                            </p>
+                            <a href="https://forms.gle/C9Jn4Ya4r3kUz33y5">Enviar</a>
+                        </div>
+                        <h2 class="visitp">Visite também:</h2><br>
+                        <div class="visit">
+                            <div class="visit1">
+                                <img src="img/ir_maos.png">
+                                <a href="https://www.instagram.com/ir_maoslibras/"></a>
+                            </div>
+                            <div class="visit2">
+                                <img src="img/adguara.png">
+                                <a href="https://www.instagram.com/adfguara/"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer>
+            © Libras Guara 2020
+        </footer>
+        <script>
+            const tabs = document.querySelectorAll("[data-tab-target]");
+            const tabcon = document.querySelectorAll("[data-tab-content]");
+            tabs.forEach((tab) => {
+                tab.addEventListener("click", () => {
+                    const target = document.querySelector(tab.dataset.tabTarget);
+                    tabcon.forEach((tabc_all) => {
+                        tabc_all.classList.remove("active");
                     });
+                        target.classList.add("active");
                 });
-                var slideIndex = 0;
-                carousel();
-                
-                function carousel() {
-                    var i;
-                    var x = document.getElementsByClassName("slides");
-                    for (i = 0; i < x.length; i++) {
-                        x[i].style.display = "none";
-                    }
-                    slideIndex++;
-                    if (slideIndex > x.length) {slideIndex = 1}
-                    x[slideIndex-1].style.display = "flex";
-                    setTimeout(carousel, 7000);
-                }
-            </script>
-        </div>
-        <div class="important">
-            <div class="tabs">
-                <div class="tab" data-tab-target ="#tab1">
-                    <p>Regra 1</p>
-                </div>
-                <div class="tab" data-tab-target ="#tab2">
-                    <p>Regra 2</p>
-                </div>
-                <div class="tab" data-tab-target ="#tab3">
-                    <p>Regra 3</p>
-                </div>
-                <div class="tab" data-tab-target ="#tab4">
-                    <p>Regra 4</p>
-                </div>
-                <div class="tab" data-tab-target ="#tab5">
-                    <p>Regra 5</p>
-                </div>
-            </div>
-            <div class="content">
-                <div id="tab1" data-tab-content class="items active">
-                    <h2>R1- Compartilhamento</h2>
-                    <p>
-                        Nunca compartilhe o conteúdo e nem o link deste curso. Todo este material é exclusivo. Caso alguém se interesse, 
-                        por gentileza, encaminhe-o a mim.
-                    </p>
-                </div>
-                <div id="tab2" data-tab-content class="items">
-                    <h2>R2- Aulas</h2>
-                    <p>
-                        Deverá ser dedicado uma(1) semana de treinamento para cada aula assistida para que, assim, haja absorção do conteúdo. Não maratone!
-                    </p>
-                </div>
-                <div id="tab3" data-tab-content class="items">
-                    <h2>R3- Atividades</h2>
-                    <p>
-                        O prazo de entrega das atividades será de uma(1) semana a contar do dia em que for solicitado.
-                    </p>
-                </div>
-                <div id="tab4" data-tab-content class="items">
-                    <h2>R4- Alunos</h2>
-                    <p>
-                        Poderão participar deste curso, apenas pessoas com idade igual ou superior a 12 anos.
-                    </p>
-                </div>
-                <div id="tab5" data-tab-content class="items">
-                    <h2>R5- Valor(R$)</h2>
-                    <p>
-                        O valor será fixo, isto é, R$50,00/mês por pessoa. Os métodos de pagamento serão acordados no ato da inscrição.
-                    </p>
-                </div>
-            </div>
-            <script>
-                const tabs = document.querySelectorAll("[data-tab-target]");
-                const tabcon = document.querySelectorAll("[data-tab-content]");
-                tabs.forEach((tab) => {
-                    tab.addEventListener("click", () => {
-                        const target = document.querySelector(tab.dataset.tabTarget);
-                        tabcon.forEach((tabc_all) => {
-                            tabc_all.classList.remove("active");
-                        });
-                            target.classList.add("active");
+            });
+        </script>
+        <script>
+            const sld = document.querySelectorAll("[data-slide-target]");
+            const sldcon = document.querySelectorAll("[data-slide-content]");
+            sld.forEach((slide) => {
+                slide.addEventListener("click", () => {
+                    const target = document.querySelector(slide.dataset.slideTarget);
+                    sldcon.forEach((slide_all) => {
+                        slide_all.classList.remove("active");
                     });
+                        target.classList.add("active");
                 });
-            </script>
-        </div>
-        <div class="fdbc">
-            <h2>Feedback</h2>
-            <p>
-                Caso você tenha alguma dica, ideia, crítica, opinião e afins, e deseja compartilhar, dê-nos o seu feedback.
-            </p>
-            <a href="https://forms.gle/C9Jn4Ya4r3kUz33y5">Enviar</a>
-        </div>
-        <h2 class="visitp">Visite também:</h2><br>
-        <div class="visit">
-        <img src="img/ir_maos.png">
-        <a href="https://www.instagram.com/ir_maoslibras/"></a>
-        </div>
-        <div class="contact">
-            Contatos:</br> Tel.: (11)95947-6794 - E-mail: kennedy.fpl22@gmail.com
-        </div>
+            });
+            var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1}
+            x[slideIndex-1].style.display = "flex";
+            setTimeout(carousel, 7000);
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </body>
 </html>
