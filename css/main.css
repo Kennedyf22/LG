@@ -21,6 +21,9 @@ article{
     border-radius:20px;
     border:2px solid rgb(32, 9, 116);
 }
+#espaco{
+    margin:0 0 100px 0;
+}
 #conteinerAbu{
     text-align:center;
     margin: 0px auto;
