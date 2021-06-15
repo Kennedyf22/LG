@@ -48,8 +48,7 @@ footer{
 }
 .row-content {
     margin: 20px 0px;
-    padding: 10px;
-    border-bottom: 1px ridge;
+    padding: 10px;    
     min-height: 200px;
 }
 .jumbotron {
