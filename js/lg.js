@@ -16,6 +16,7 @@ if (password=="12031991"&matricula=="2021031") { window.location="https://kenned
 if (password=="28032006"&matricula=="2021032") { window.location="https://kennedyf22.github.io/LG/warstop.html"; done=1; }/*ISA*/
 if (password=="30121985"&matricula=="2021033") { window.location="https://kennedyf22.github.io/LG/warstop.html"; done=1; }/*APG*/
 if (password=="19042001"&matricula=="2021034") { window.location="https://kennedyf22.github.io/LG/warstop.html"; done=1; }/*GRS*/
+if (password=="14032007"&matricula=="2021111") { window.location="https://kennedyf22.github.io/LG/LG.html"; done=1; }/*DKRS*/
 if (done==0) { alert("Senha ou Usuário inválido."); }
 }
 
