@@ -6,6 +6,7 @@ password=password.toLowerCase();
 matricula=matricula.toLowerCase();
 if (password=="admin"&matricula=="220298") { window.location="https://kennedyf22.github.io/LG/LG.html"; done=1; }/*K*/
 if (password=="04102004"&matricula=="2020062") { window.location="https://kennedyf22.github.io/LG/warstop.html"; done=1; }/*RLS*/
+if (password=="24062003"&matricula=="2020034") { window.location="https://kennedyf22.github.io/LG/LG.html"; done=1; }/*JSC*/
 if (password=="05021978"&matricula=="2020061") { window.location="https://kennedyf22.github.io/LG/warstop.html"; done=1; }/*ZFL*/
 if (password=="19041996"&matricula=="2020051") { window.location="https://kennedyf22.github.io/LG/warstop.html"; done=1; }/*MOG*/
 if (password=="25072002"&matricula=="2020033") { window.location="https://kennedyf22.github.io/LG/warstop.html"; done=1; }/*KRS*/
