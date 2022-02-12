@@ -22,7 +22,9 @@ if (password=="24092007"&matricula=="2022011") { window.location="https://kenned
 if (done==0) { alert("Senha ou Usuário inválido."); }
 }
 
+function Login(){
 alert("Olá! Não se esqueça de preencher a lista de presença sempre que for assistir uma nova aula!");
+}
 
 /*Tempo de inatividade*/
 function noBack(){window.history.forward()
